@@ -14,7 +14,8 @@ import pickle
 # import sql connector
 from env import get_connection
 
-#################### Acquire Data ####################
+
+#################### Wrangle Data ####################
 
 
 def make_pickles(py_object, filename):
@@ -47,33 +48,7 @@ def open_pickles(filename):
     return opened_jar
 
 
-def get_csv(filepath, use_pickles=True):
-    '''
-
-    Obtains DataFrame using pandas read_csv function, or loads existing
-    pickle file of DataFrame object if one exists. If pickle file does
-    not yet exist, uses make_pickles function to store newly acquired
-    DataFrame object as pickle file.
-
-    '''
-
-    # get filename from provided filepath
-    for x in filepath.split('/'):
-        if x.endswith('.csv'): 
-            filename = x
-    # check if pickled file exists
-    if isfile(f'{filename}.pickle') == False or use_pickles == False:
-        # read CSV into DataFrame
-        df = pd.read_csv(filepath)
-        make_pickles(filename)
-    else:
-        # load existing DataFrame from pickle file
-        df = open_pickles(filename)
-
-    return df
-
-
-def obtain_curriculum(use_pickles=True):
+def wrangle_curriculum(use_pickles=True):
     '''
     '''
 
