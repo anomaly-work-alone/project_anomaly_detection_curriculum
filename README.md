@@ -6,19 +6,19 @@ Finding Anomalies in Curriculum Access
 ### Table of Contents
 ---
 
-I.   [Project Overview](#i-overview)
-1.   [Description     ](#1-description)
-2.   [Deliverables    ](#2-deliverables)
+I.   [Overview       ](#i-overview)
+1.   [Description    ](#1-description)
+2.   [Deliverables   ](#2-deliverables)
 
-II.  [Project Summary ](#ii-summary)
-1.   [Goals           ](#1-goals)
-2.   [Findings        ](#2-findings)
-3.   [Recommendations ](#3-recommendations)
+II.  [Summary        ](#ii-summary)
+1.   [Goals          ](#1-goals)
+2.   [Findings       ](#2-findings)
+3.   [Recommendations](#3-recommendations)
 
-III. [Data Context    ](#iii-data-context)
-1.   [Data Dictionary ](#data-dictionary)
+III. [Data Context   ](#iii-data-context)
+1.   [Data Dictionary](#data-dictionary)
 
-IV.  [Reproduction    ](#iv-reproduction)
+IV.  [Reproduction   ](#iv-reproduction)
 
 <br>
 
