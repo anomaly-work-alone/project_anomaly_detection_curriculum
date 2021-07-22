@@ -91,6 +91,7 @@ Reproduction of these report findings requires access to the Codeup SQL database
 
 ```py
 def get_connection(db):
-    return f'mysql+pymysql://{username}:{password}@{host}/{db}'```
+    return f'mysql+pymysql://{username}:{password}@{host}/{db}'
+```
 
 [[Return to Top]](#finding-anomalies-in-curriculum-access)
